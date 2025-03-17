@@ -7,11 +7,6 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Critique AI",
-    techs: ["Flask", "Google Cloud", "AI"],
-    link: "https://github.com/ashokkmt/critiqueai",
-  },
-  {
     title: "Portfolio Theme using Astro",
     techs: ["Astro", "Cloudfare", "Tailwind"],
     link: "https://github.com/ashokkmt/ashokkumawat",

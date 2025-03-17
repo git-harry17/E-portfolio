@@ -12,24 +12,21 @@ type Presentation = {
 };
 
 const presentation: Presentation = {
-  mail: "ashokkumawat4555@gmail.com",
-  title: "Hi, i’m Ashok 👋",
+  mail: "harshitbishtharry@gmail.com",
+  title: "Hi, i’m Harshit 👋",
   //profile: "/profile.webp",
   description:
-    "I am a 2nd-year BTech student at Graphic Era Hill University, Dehradun. I am passionate about *software development, and problem-solving*. Currently, I am exploring backend and frontend development while expanding my knowledge in AI and cloud platforms. I have experience with *Python, C, C++, MySQL, MongoDB, and GCP*, and I enjoy solving complex problems through efficient code and system design. I am always *looking for opportunities to grow and contribute to innovative projects*.",
+    "I am a 3rd-year BTech student at Graphic Era Hill University, Dehradun. I am passionate about *software development, and problem-solving*. Currently, I am exploring backend and frontend development while expanding my knowledge in AI and cloud platforms. I have experience with  C, C++, MongoDB, ExpressJS,NodeJs and ReactJS. I enjoy solving complex problems through efficient code and system design. I am always *looking for opportunities to grow and contribute to innovative projects*.",
   socials: [
     {
       label: "LinkedIn",
-      link: "https://linkedin.com/in/ashokkmt",
+      link: "https://www.linkedin.com/in/harshit-bisht-69bb122ba/",
     },
     {
       label: "GitHub",
-      link: "https://github.com/ashokkmt",
+      link: "https://github.com/git-harry17",
     },
-    {
-      label: "StackOverflow",
-      link: "https://stackoverflow.com/users/22745165/november",
-    },
+    
   ],
 };
 

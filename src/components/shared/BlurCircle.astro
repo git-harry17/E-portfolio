@@ -12,9 +12,14 @@ const { position, color } = Astro.props;
 
 <div
   class:list={{
-    [`fixed z-0 h-[134px] w-[134px] lg:w-[300px] lg:h-[300px] rounded-full ${MAP_COLOR_VARIANT_TO_BG[color]} blur-[200px] md:blur-[350px] opacity-70`]: true,
-    ["left-0 top-0"]: position === "top",
-    ["right-0 bottom-0"]: position === "bottom",
+    [`fixed z-0 rounded-full ${MAP_COLOR_VARIANT_TO_BG[color]} opacity-70`]: true,
+    ["-left-[3vw] -top-[3vw]"]: position === "top",
+    ["-right-[3vw] -bottom-[3vw]"]: position === "bottom",
+  }}
+  style={{
+    width: "clamp(100px, 20vw, 300px)",
+    height: "clamp(100px, 20vw, 300px)",
+    filter: "blur(clamp(40px, 10vw, 150px))"
   }}
 >
 </div>
