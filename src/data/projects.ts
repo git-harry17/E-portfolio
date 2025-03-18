@@ -9,7 +9,7 @@ const projects: Project[] = [
   {
     title: "Portfolio Theme using Astro",
     techs: ["Astro", "Cloudfare", "Tailwind"],
-    link: "https://github.com/ashokkmt/ashokkumawat",
+    link: "https://github.com/git-harry17/harshitbisht",
   },
 ];
 
